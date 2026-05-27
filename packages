@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "react-native-paper": "4.9.2",
+    "@expo/vector-icons": "^15.0.2",
+    "firebase/app": "*",
+    "firebase": "8.0.0",
+    "firebase/analytics": "*",
+    "firebase/auth": "*",
+    "firebase/firestore": "*",
+    "jshashes": "*"
+  }
+}
