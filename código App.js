@@ -21,7 +21,7 @@ import {
   signInWithEmailAndPassword
 } from 'firebase/auth';
 
-import { auth } from './firebaseConfig';
+
 
 const Auth = {
 
@@ -56,7 +56,6 @@ import {
   orderBy
 } from 'firebase/firestore';
 
-import { db } from './firebaseConfig';
 
 // ================= ORÇAMENTOS =================
 const Orcamento = {
@@ -404,11 +403,6 @@ export default function App() {
 
   const [screen, setScreen] = useState('login');
 
-  useEffect(() => {
-
-    initDB();
-
-  }, []);
 
   return (
 
