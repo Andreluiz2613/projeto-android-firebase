@@ -2,11 +2,8 @@
   "dependencies": {
     "react-native-paper": "4.9.2",
     "@expo/vector-icons": "^15.0.2",
-    "firebase/app": "*",
-    "firebase": "8.0.0",
-    "firebase/analytics": "*",
-    "firebase/auth": "*",
-    "firebase/firestore": "*",
-    "jshashes": "*"
+    "jshashes": "*",
+    "react-native-safe-area-context": "~5.6.2",
+    "@react-native-async-storage/async-storage": "2.2.0"
   }
 }
